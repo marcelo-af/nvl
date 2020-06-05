@@ -1,0 +1,77 @@
+PROJETO NLW
+
+nesse projeto iniciamos criando uma pasta nlw -> depois abrimos no visual studio code e criamos o arquivo (index.html) após isso baixamos a extensão (Live Server) dentro do visual studio code. Essa extensao(Live Server) abri o arquivo (index.html) já com o ip do servidor.
+
+Exemplo de como é aberto:
+
+Para abrir clique com o botao direito em index.html e escolha a opção(Open with Live Server)
+
+(http://127.0.0.1:5500/index.html) 
+
+-----------------------------------------------------------------------------
+
+Dica ao criar uma nova página html no visual studio pode iniciar com (!+Enter) que irá trazer uma pagina com as tags principais 
+
+----------------------------------------------------------------------------
+
+fonts.google.com é um site para puxar as fontes(estilos de texto) que o google disponibiliza.
+
+Apos que escolher a fonte e o tamanho clique em Embed pegue o link e cole no index.html 
+(<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">) na parte do head.
+
+Copiar a parte do css também e colocar na tag <style> ou numa folha do css se já estiver criado. O <style> tbm deve ser colocado na parte do head.
+
+*parte do css pega do site (font-family: 'Roboto', sans-serif;)
+
+-----------------------------------------------------------------------------
+
+
+A caixa block ocupa toda a linha 
+inline ocupa a parte onde o texto é digitado
+
+
+----------------------------------------------------------------------------
+
+No css o . (ponto) é referencia para uma classe 
+
+ex:
+
+.red {
+
+background-color: red;
+}
+
+
+*As configurações do margin no css geralmente vem assim 
+(top, right, botton e left)
+
+ex: 
+
+.content {
+margin: 50px auto 20px 15px;
+}
+
+------------------------------------------------------------------------------
+
+id é um identificador de um elemento html. O id não pode repetir o nome. O id pode ser utilizado na estilização do CSS se quiser 
+Ex:
+<div id="page-home"></div>
+
+Por se tratar de id no css deverá aparecer com #
+
+#page-home{
+}
+
+-----------------------------------------------------------------------------
+
+Colocar o 
+
+../ isso significa para sair da pasta atual que está e ir para uma pasta acima dela 
+
+-----------------------------------------------------------------------------
+
+A tag <span> é inline e pode ser moldada no css
+
+----------------------------------------------------------------------------
+
+No css o selector (*) referencia a todos os outros selectores é como se fosse uma palavra chave.
