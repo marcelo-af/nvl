@@ -75,3 +75,31 @@ A tag <span> é inline e pode ser moldada no css
 ----------------------------------------------------------------------------
 
 No css o selector (*) referencia a todos os outros selectores é como se fosse uma palavra chave.
+
+---------------------------------------------------------------------------
+
+codepen.io -> é um site onde pode programar js/html/css direto da página 
+
+---------------------------------------------------------------------------
+Objetos em javascript 
+
+//objeto possuem propriedades e funcionalidades 
+ex:
+const pessoa = {
+altura: "1,80m",
+idade: 24,
+solteiro: true 
+}
+
+-------------------------------------------------------------------------
+
+Para pegar a api que traz cidades e estados no site do IBGE  basta acessar no google (IBGE api serviços)
+
+(https://servicodados.ibge.gov.br/api/docs) e escolher o serviço Localidades
+
+Serviço API de Localidades de UF - https://servicodados.ibge.gov.br/api/v1/localidades/estados
+
+----------------------------------------------------------------------------
+
+Geralmente em javascript o fetch é como se fosse uma promessa 
+
