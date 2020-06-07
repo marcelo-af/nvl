@@ -118,3 +118,81 @@ ex:
 
 Quando utiliza o querySelectorAll geralmente ele devolve uma lista ou elementos
 
+------------------------------------------------------------------------------
+
+Para utilizar o gitbash no terminal clique na aba do terminal que esta escrito powershell selecione a opção(Select Default Shell) Depois escolha a opção (Git Bash) depois feche o terminal clique na opção (Terminal -> New Terminal) e depois que abrir clique no icone da lixeira que irá aparecer o novo caminho dentro do terminal.
+No caso o caminho do gitbash 
+
+-------------------------------------------------------------------------
+
+modulos/pacotes sao processos feitos por terceiro para ajudar no projeto
+
+-----------------------------------------------------------------------
+
+npm -> node package management 
+
+npm init -y   -> Cria o package.json
+
+
+O package.json é um java script object notation.
+java script object notation -> permite escrever um texto como se fosse javascript
+
+-------------------------------------------------------------------
+
+O comando
+
+npm install express -> instala o (package-lock.json e a pasta node_modules)
+
+O express é utilizado para configurar o servidor 
+
+para iniciar o servidor é bom colocar no terminal (node src/server.js)
+
+----------------------------------------------------------------------
+
+O pacote nodemon é para o servidor reiniciar sozinho quando tiver uma alteração 
+
+para instalar deve estar dentro do terminal 
+
+npm install nodemon -D
+
+
+--------------------------------------------------------------------------
+
+O template engineer serve para poder colocar if/else(estrutura de repetição), entre outros nos arquivos html
+
+Para utilizar o template engineer é preciso instalar o nunjucks
+
+npm install nunjucks 
+
+Ele da forças ao html
+
+
+*Atraves do nunjucks podemos utilizar o include
+
+sintaxe do include {% include "caminho_do_html_que_deseja_incluir" %}
+
+{% include "partials/page-header.html" %}
+
+O partials/page-header.html foi incluido nos html's (create-point.html/search-results.html) pq tem a parte do codigo voltar que é utilizado nos dois 
+
+código do page-header.html
+    <img src="assets/logo.svg" alt="Logomarca">
+    <a href="/">
+        <span></span>
+        Voltar para home</a>
+</header> 
+
+------------------------------------------------------------------------------
+
+Para instalar o Nunjucks alterações de cores 
+Vá nos plugins do visual studio e digita Nunjucks Template 
+
+(C:\Users\m.alves.ferreira\AppData\Roaming\Code\User\settings.json)
+Depois de instalado vá no (settings.json) e coloque as linhas abaixo
+
+ "files.associations": {
+        "*.html": "njk"
+    },
+    "emmet.includeLanguages": {
+        "njk": "html"
+    }
