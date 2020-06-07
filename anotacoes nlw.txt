@@ -99,7 +99,22 @@ Para pegar a api que traz cidades e estados no site do IBGE  basta acessar no go
 
 Serviço API de Localidades de UF - https://servicodados.ibge.gov.br/api/v1/localidades/estados
 
+Serviço para pegar os municipios/cidades:
+https://servicodados.ibge.gov.br/api/v1/localidades/estados/{UF}/municipios
+
+
 ----------------------------------------------------------------------------
 
 Geralmente em javascript o fetch é como se fosse uma promessa 
+
+-----------------------------------------------------------------------------
+
+Para colocar um campo como obrigatorio deve colocar o atributo required no campo
+
+ex:
+
+<input type="text" name="address" required>
+----------------------------------------------------------------------------
+
+Quando utiliza o querySelectorAll geralmente ele devolve uma lista ou elementos
 
