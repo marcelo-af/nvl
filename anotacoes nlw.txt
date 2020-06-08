@@ -196,3 +196,23 @@ Depois de instalado vá no (settings.json) e coloque as linhas abaixo
     "emmet.includeLanguages": {
         "njk": "html"
     }
+
+
+---------------------------------------------------------------------------------
+
+instalar o sqlite3 na pasta do projeto pelo terminal 
+
+npm install sqlite3
+
+Para rodar o arquivo db.js digite no terminal 
+
+node src/database/db.js
+
+*serialize significa que vai rodar uma sequencia de codigo
+
+
+------------------------------------------------------------------------------
+
+site para pegar imagens em svg 
+
+https://unsplash.com/
